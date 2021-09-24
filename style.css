@@ -1,0 +1,19 @@
+body{
+    font-family: roboto;
+}
+.btn-search{
+    padding: 2%;
+    background-color: #e30613;
+    border-radius: 10%;
+}
+.bg-danger{
+    background-color: #e30613;
+}
+.btn-navbar{
+    border: 1px #fff solid;
+}
+.btn-navbar:hover{
+    cursor: pointer !important;
+    color: #e30613 !important;
+    background-color: #fff;
+}
