@@ -9,6 +9,9 @@ body{
 .bg-danger{
     background-color: #e30613;
 }
+.text-danger{
+    color: #e30613 !important;
+}
 .btn-navbar{
     border: 1px #fff solid;
 }
@@ -16,4 +19,7 @@ body{
     cursor: pointer !important;
     color: #e30613 !important;
     background-color: #fff;
+}
+.txt-cart{
+    font-size: 13px;
 }
