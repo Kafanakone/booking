@@ -4,7 +4,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="shortcut icon" href="images/favicon.png" type="image/x-icon">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">    <title>Bienvenue sur le site Officiel de Booking</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">    
+    <title>Booking :: Espace Chaussure</title>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css">
     <link rel="stylesheet" href="style.css">
     <!-- Font familly -->
@@ -86,16 +87,16 @@
             <div id="navbarContent" class="collapse navbar-collapse justify-content-center">
               <ul class="navbar-nav">
                 <li class="nav-item">
-                  <a type="button" class="nav-link active btn-lg btn btn-navbar font-weight-bold  mr-lg-3 " href="index.html">Accueil</a>
+                  <a type="button" class="nav-link btn-lg btn btn-navbar font-weight-bold  mr-lg-3 " href="index.html">Accueil</a>
                   </li>
                   <li class="nav-item">
-                    <a type="button" class="nav-link  btn-lg btn btn-navbar font-weight-bold  mr-lg-3 " href="vetement.html">Vêtements</a>
+                    <a type="button" class="nav-link btn-lg btn btn-navbar font-weight-bold  mr-lg-3 " href="vetement.html">Vêtements</a>
                   </li>
                   <li class="nav-item">
-                    <a type="button" class="nav-link  btn-lg btn-navbar font-weight-bold  mr-lg-3 " href="electronique.html">Electroniques</a>
+                    <a type="button" class="nav-link btn-lg btn-navbar font-weight-bold  mr-lg-3 " href="electronique.html">Electroniques</a>
                   </li>
                   <li class="nav-item">
-                    <a type="button" class="nav-link  btn-lg btn-navbar font-weight-bold  mr-lg-3 " href="chaussure.html">Chaussures</a>
+                    <a type="button" class="nav-link active btn-lg btn-navbar font-weight-bold  mr-lg-3 " href="chaussure.html">Chaussures</a>
                   </li>
                   <li class="nav-item">
                     <a type="button" class="nav-link  btn-lg btn-navbar font-weight-bold  mr-lg-3 " href="tel.html">Téléphones & Tablettes</a>
@@ -109,156 +110,28 @@
         </div>
       </div>
   </header>
-    <!-- main section of home -->
-    <div class="container-fluid mt-53"> <!-- Div principal -->
-        <div class="row"> <!-- Row principal -->
-            <div class="col-2 d-none d-md-block"> <!-- colonne de droite -->
-                <figure class="figure mt-5">
-                    <img src="images/tee-shirt-vd.jpg" alt="T-shirt vedette" class="figure-img img-fluid rounded img-thumbnail" alt="...">
-                    <figcaption class="figure-caption">Tee-shirt 100% coton personnalisable </figcaption>
-                  </figure>
-                <figure class="figure mt-3">
-                    <img src="images/sac-vd.jpg" alt="T-shirt vedette" class="figure-img img-fluid rounded img-thumbnail" alt="...">
-                    <figcaption class="figure-caption">Sac à dos personnalisable </figcaption>
-                  </figure>
-            </div>
-            <div class=" col col-lg-7  mt-5"> <!-- colonne du milieu (slide) -->
-                <div class="container"> <!-- caroussel -->
-                    <div class="carousel slide" data-ride="carousel" id="carouselControls">
-                        <div class="carousel-inner">
-                           <div class="carousel-item active">
-                              <img src="images/slider1.jpg" class="d-block w-100" alt="">
-                           </div>
-                           <div class="carousel-item">
-                              <img src="images/slider2.jpg" class="d-block w-100" alt="">
-                           </div>
-                        </div>
-                        <a class="carousel-control-prev" href="#carouselControls" role="button" data-slide="prev">
-                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                            <span class="sr-only">Précédent</span>
-                         </a>
-                         <a class="carousel-control-next" href="#carouselControls" role="button" data-slide="next">
-                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                            <span class="sr-only">Suivant</span>
-                         </a>
-                     </div>
-                </div> <!-- End caroussel -->
-                <div class="container"> <!-- start Jumbotron -->
-                  <div class="jumbotron">
-                    <h1 class="display text-danger text-center">Aujourd'hui est jour spécial !!!</h1>
-                    <img src="images/vente/products-solde.jpg" class="img-fluid" alt="">
-                    <hr class="my-4">
-                    <p class="display-4 ">Jusqu'à <span class="text-danger">-80%</span></p>
-                    <a class="btn btn-danger btn-lg" href="#" role="button">En savoir voir plus</a>
-                  </div>
-                </div><!-- End Jumbotron -->
-                <!-- <div class="container"> most ask  
-                    <h5 class="text-danger">Les plus demandés</h5>
-                    <div class="row"> Products Ligne 1 --
-                      <div class="col-12 col-md-6 mt-2 mt-lg-0">
-                        <div class="card shadow"> <!-- Cart 1 --
-                          <img src="images/vente/sac-perso.jpg" alt="Programmation JavaScript" class="card-img-top">
-                          <div class="card-body">
-                            <p class="card-text text-uppercase text-center">Sac personnalisable</p>
-                          </div>
-                          <a href=" " class="btn btn-danger stretched-link">Commander</a>
-                        </div>
-                      </div>
-                      <div class="col-12 col-md-6 mt-2 mt-lg-0">
-                        <div class="card shadow"> <!-- Cart 2 --
-                          <img src="images/vente/infinix8.jpg" alt="Programmation JavaScript" class="card-img-top">
-                          <div class="card-body">
-                            <p class="card-text text-uppercase text-center">Infinix Hot 8 non Pro</p>
-                          </div>
-                          <a href=" " class="btn btn-danger stretched-link">Commander</a>
-                        </div>
-                      </div>
-                    </div>
-                    <div class="row "><!-- Products Ligne 1 --
-                      <div class="col-12 col-md-6 mt-2 mt-lg-0">
-                        <div class="card shadow"> <!-- Cart 1 --
-                          <img src="images/vente/sac-perso.jpg" alt="Programmation JavaScript" class="card-img-top">
-                          <div class="card-body">
-                            <p class="card-text text-uppercase text-center">Sac personnalisable</p>
-                          </div>
-                          <a href=" " class="btn btn-danger stretched-link">Commander</a>
-                        </div>
-                      </div>
-                      <div class="col-12 col-md-6 mt-2 mt-lg-0">
-                        <div class="card shadow"> <!-- Cart 2 --
-                          <img src="images/vente/infinix8.jpg" alt="Programmation JavaScript" class="card-img-top">
-                          <div class="card-body">
-                            <p class="card-text text-uppercase text-center">Infinix Hot 8 non Pro</p>
-                          </div>
-                          <a href=" " class="btn btn-danger stretched-link">Commander</a>
-                        </div>
-                      </div>
-                    </div>
-                </div> -->
-            </div> <!-- End Colonne du milieu -->
-            <div class="col-3 d-none d-lg-block"> <!-- colonne de gauche -->
-                <div class="card shadow mt-5">  <!--Assistance -->
-                  <div class="card-body">
-                    <p class="card-text text-center">
-                        <i class="bi bi-question-circle text-danger "></i><a href="" class="text-danger"> Centre d'Assistance </a><br>
-                        <small> Call center</small>
-                    </p>
-                    <p class="card-text text-center">
-                      <i class="bi bi-phone-fill text-danger"></i><a href="" class="text-danger"> Appellez pour commander </a><br>
-                        <small> +225 XX XX XX XX XX</small>
-                    </p>
-                  </div>
-                </div>
-                 <div class="card shadow mt-5"> <!--Best products -->
-                  <div class="card-body">
-                    <h6 class="card-title text-danger">Les produits les plus Vendus</h6>
-                    <p class="card-text txt-cart">
-                        <img src="images/vente/mini-iphone13.png" alt="" class="img-fluid" width="50"><a href="">IPhone 13 Pro max </a><br>
-                        <img src="images/vente/mini-teeshirt.jpg" alt="" class="img-fluid mt-2" width="50"><a href="">Tee shirt personnoalisé FBI </a><br>
-                        <img src="images/vente/mini-casio.png" alt="" class="img-fluid mt-2" width="50"><a href="">Montre Casio tactile </a><br>
-                    </p>
-                    <a type="button" class="btn btn-danger text-center " href=""> Voir plus</a>
-                  </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    <div class="container-fluid"> <!-- Pourquoi nous ?-->
-      <div class="row mb-3 justify-content-center">
-        <div class="col-3 card shadow-lg  py-md-4">
-          <div class="d-block text-center align-middle">
-            <img src="images/refresh.png" class="mr-3 img-fluid " alt="...">
-            <div >
-            <p class="text-danger">Garantie Satisfaire ou remboursée</p>
-            </div>
-          </div>
-        </div>
-        <div class="col-3 card shadow-lg py-3 py-md-4 ml-lg-2 mr-lg-2">
-          <div class="d-block text-center align-middle">
-            <img src="images/secure.png" class="mr-3 img-fluid " alt="...">
-            <div >
-            <p class="text-danger">Payement sécurisé</p>
-            </div>
-          </div>
-        </div>
-        <div class="col-3 card shadow-lg py-3 py-md-5">
-          <div class="d-block text-center align-middle">
-            <img src="images/carliv.png" class="mr-3 img-fluid " alt="...">
-            <div >
-            <p class="text-danger">Livraison Rapide</p>
-            </div>
-          </div>
-        </div>
+    <div class="container"><!-- Indication -->
+      <div class="row">
+        <b><a href="" class="text-danger">Accueil</a> &#9654;</b>
+        <b><a href="">Chaussures</a></b>
       </div>
     </div>
+    <!-- Start contenu panier -->
+    <!-- <div class="jumbotron jumbotron-fluid mt-3"> -->
+      <div class="container">
+        <img src="images/chaussure-ban.gif" alt="chaussure" class="img-fluid img-thumbnail shadow-lg col">
+        <!-- <h1 class="display text-center text-primary">Bienvenue dans l'univers du Vêtement</h1> -->
+      </div>
+  <!-- Dnd contenu panier -->
     <!-- Most ASK -->
     <div class="container-fluid"><!--   -->
       <div class=" d-flex justify-content-between bg-dark align-middle text-white p-2 text-uppercase rounded-lg mb-3">
         <h5 >Nouveaux produits</h5>
         <a href="" class="text-white">Voir plus<i class="bi bi-caret-right-fill"></i></a>
     </div>
-      <div class="row"><!-- Products Ligne 1 -->
-        <div class=" col-6 col-lg-2  mt-2 mt-lg-0">
+    <!-- PRODUCTS -->
+      <div class="row">
+        <div class=" col-6 col-lg-3  mt-2 mt-lg-0">
           <div class="card shadow"> <!-- Cart 1 -->
             <img src="images/vente/sac-perso.jpg" alt="Sac" class="card-img-top">
             <div class="card-body">
@@ -267,7 +140,7 @@
             <button type="button" onclick="NoCommand()" class="btn btn-danger stretched-link">Ajouter au panier</button>
           </div>
         </div>
-        <div class="col-6 col-lg-2  mt-2 mt-lg-0">
+        <div class="col-6 col-lg-3  mt-2 mt-lg-0">
           <div class="card shadow"> <!-- Cart 2 -->
             <img src="images/vente/infinix8.jpg" alt="Téléphone Infinix" class="card-img-top">
             <div class="card-body">
@@ -276,7 +149,7 @@
             <button type="button" onclick="NoCommand()" class="btn btn-danger stretched-link">Ajouter au panier</button>
           </div>
         </div>
-        <div class="col-6 col-lg-2  mt-2 mt-lg-0">
+        <div class="col-6 col-lg-3  mt-2 mt-lg-0">
           <div class="card shadow"> <!-- Cart 3 -->
             <img src="images/vente/casquette-perso.jpg" alt="Casquette" class="card-img-top">
             <div class="card-body">
@@ -285,7 +158,7 @@
             <button type="button" onclick="NoCommand()" class="btn btn-danger stretched-link">Ajouter au panier</button>
           </div>
         </div>
-        <div class="col-6 col-lg-2  mt-2 mt-lg-0">
+        <div class="col-6 col-lg-3  mt-2 mt-lg-0">
           <div class="card shadow"> <!-- Cart 4 -->
             <img src="images/vente/fer-a-repasser.jpg" alt="Fer à repasser" class="card-img-top">
             <div class="card-body">
@@ -294,7 +167,7 @@
             <button type="button" onclick="NoCommand()" class="btn btn-danger stretched-link">Ajouter au panier</button>
           </div>
         </div>
-        <div class="col-6 col-lg-2  mt-2 mt-lg-0">
+        <div class="col-6 col-lg-3  my-2 ">
           <div class="card shadow"> <!-- Cart 5 -->
             <img src="images/vente/parapluie-perso.jpg" alt="parapluie" class="card-img-top">
             <div class="card-body">
@@ -303,7 +176,7 @@
             <button type="button" onclick="NoCommand()" class="btn btn-danger stretched-link">Ajouter au panier</button>
           </div>
         </div>
-        <div class="col-6 col-lg-2  mt-2 mt-lg-0">
+        <div class="col-6 col-lg-3  my-2 ">
           <div class="card shadow"> <!-- Cart 6 -->
             <img src="images/vente/radio.jpg" alt="radio" class="card-img-top">
             <div class="card-body">
@@ -312,38 +185,28 @@
             <button type="button" onclick="NoCommand()" class="btn btn-danger stretched-link ">Ajouter au panier</button>
           </div>
         </div>
-      </div>
-    </div><!--End Most ASK -->
-    <div class="container mt-5 mb-3 img-barn">
-      <img src="images/vente/barn-1.jpg" alt="barn" class="img-thumbnail img-fluid">
-    </div>
-    <div class="container-fluid mt-4"> <!-- NEWSLETTERS and youtube-->
-      <div class="row mb-3 justify-content-between">
-        <div class="col-5 input-group"> <!-- NEWSLETTERS-->
-          <div>
-              <p class="">NEWSLETTERS</p>
-              <p>Recevez tous les offres et nouvelles</p>
-              <div class="d-flex">
-                  <input type="email" class="form-control border-right-0" placeholder="Entrez votre mail..." aria-label="Input group example" aria-describedby="btnGroupAddon2">
-                  <div class="input-group-prepend">
-                      <button type="button" class=" btn btn-danger" >S'inscrire</button>
-                  </div>
-              </div>
-        </div>
-        </div>
-        <div class="col-4"><!-- Youtube-->
-          <div class="card shadow bg-danger">
-            <iframe width="" height="" src="https://www.youtube.com/embed/XKfgdkcIUxw" 
-            title="YouTube video player" frameborder="0" 
-            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
-            </iframe>          
-          <div class="card-body">
-            <h5 class="card-title text-center text-white text-uppercase">Espace Pub</h5>
+        <div class="col-6 col-lg-3  my-2 ">
+          <div class="card shadow"> <!-- Cart 7 -->
+            <img src="images/vente/radio.jpg" alt="radio" class="card-img-top">
+            <div class="card-body">
+              <p class="card-text text-uppercase text-center text-product">Radio Pro max</p>
+            </div>
+            <button type="button" onclick="NoCommand()" class="btn btn-danger stretched-link ">Ajouter au panier</button>
           </div>
         </div>
+        <div class="col-6 col-lg-3  my-2 ">
+          <div class="card shadow"> <!-- Cart 8 -->
+            <img src="images/vente/radio.jpg" alt="radio" class="card-img-top">
+            <div class="card-body">
+              <p class="card-text text-uppercase text-center text-product">Radio Pro max</p>
+            </div>
+            <button type="button" onclick="NoCommand()" class="btn btn-danger stretched-link ">Ajouter au panier</button>
+          </div>
         </div>
       </div>
     </div>
+    <!-- PRODUCTS   -->
+  
     <footer class="container-fluid ">
       <div class="row bg-dark text-white justify-content-between py-md-3 ">
         <div class="col-4">
