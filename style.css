@@ -27,3 +27,14 @@ body{
     -webkit-transform: scale(1);
 	transform: scale(1.1);
 }
+.text-product{
+    font-size: 10px !important;
+}
+.lgrs img{
+    -webkit-filter: grayscale(100%);
+	filter: grayscale(100%);
+}
+.lgrs img:hover{
+    -webkit-filter: grayscale(0);
+	filter: grayscale(0);
+}
