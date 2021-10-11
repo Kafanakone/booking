@@ -1,5 +1,6 @@
 body{
     font-family: roboto;
+    overflow-x: hidden;
 }
 .btn-search{
     padding: 2%;
@@ -20,6 +21,13 @@ body{
     color: #e30613 !important;
     background-color: #fff;
 }
+/* .card-produit{
+    height: 21em !important;
+}
+.card-corps{
+    padding-bottom: 3em !important;
+
+} */
 .txt-cart{
     font-size: 13px;
 }

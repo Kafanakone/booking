@@ -14,7 +14,7 @@
 </head>
 <body>
     <!-- Hearder (logo + search bar) -->
-  <header>
+  <header class="container">
     <div class="container-fluid">
       <div class="row justify-content-between mt-4">
           <div class=" col col-lg-2">
@@ -110,7 +110,7 @@
       </div>
   </header>
     <!-- main section of home -->
-    <div class="container-fluid mt-53"> <!-- Div principal -->
+    <div class="container mt-53"> <!-- Div principal -->
         <div class="row"> <!-- Row principal -->
             <div class="col-2 d-none d-md-block"> <!-- colonne de droite -->
                 <figure class="figure mt-5">
@@ -259,54 +259,54 @@
     </div>
       <div class="row"><!-- Products Ligne 1 -->
         <div class=" col-6 col-lg-2  mt-2 mt-lg-0">
-          <div class="card shadow"> <!-- Cart 1 -->
+          <div class="card shadow card-produit"> <!-- Cart 1 -->
             <img src="images/vente/sac-perso.jpg" alt="Sac" class="card-img-top">
-            <div class="card-body">
+            <div class="card-body card-corps">
               <p class="card-text text-uppercase text-center text-product">Sac personnalisable</p>
             </div>
             <button type="button" onclick="NoCommand()" class="btn btn-danger stretched-link">Ajouter au panier</button>
           </div>
         </div>
         <div class="col-6 col-lg-2  mt-2 mt-lg-0">
-          <div class="card shadow"> <!-- Cart 2 -->
+          <div class="card shadow card-produit"> <!-- Cart 2 -->
             <img src="images/vente/infinix8.jpg" alt="Téléphone Infinix" class="card-img-top">
-            <div class="card-body">
+            <div class="card-body card-corps">
               <p class="card-text text-uppercase text-center text-product">Infinix Hot 8 non Pro</p>
             </div>
             <button type="button" onclick="NoCommand()" class="btn btn-danger stretched-link">Ajouter au panier</button>
           </div>
         </div>
         <div class="col-6 col-lg-2  mt-2 mt-lg-0">
-          <div class="card shadow"> <!-- Cart 3 -->
+          <div class="card shadow card-produit"> <!-- Cart 3 -->
             <img src="images/vente/casquette-perso.jpg" alt="Casquette" class="card-img-top">
-            <div class="card-body">
+            <div class="card-body card-corps">
               <p class="card-text text-uppercase text-center text-product">Casquette personnalisable</p>
             </div>
             <button type="button" onclick="NoCommand()" class="btn btn-danger stretched-link">Ajouter au panier</button>
           </div>
         </div>
         <div class="col-6 col-lg-2  mt-2 mt-lg-0">
-          <div class="card shadow"> <!-- Cart 4 -->
+          <div class="card shadow card-produit"> <!-- Cart 4 -->
             <img src="images/vente/fer-a-repasser.jpg" alt="Fer à repasser" class="card-img-top">
-            <div class="card-body">
+            <div class="card-body card-corps">
               <p class="card-text text-uppercase text-center text-product">Fer à repasser</p>
             </div>
             <button type="button" onclick="NoCommand()" class="btn btn-danger stretched-link">Ajouter au panier</button>
           </div>
         </div>
         <div class="col-6 col-lg-2  mt-2 mt-lg-0">
-          <div class="card shadow"> <!-- Cart 5 -->
+          <div class="card shadow card-produit"> <!-- Cart 5 -->
             <img src="images/vente/parapluie-perso.jpg" alt="parapluie" class="card-img-top">
-            <div class="card-body">
+            <div class="card-body card-corps">
               <p class="card-text text-uppercase text-center text-product">Infinix Hot 8 non Pro</p>
             </div>
             <button type="button" onclick="NoCommand()" class="btn btn-danger stretched-link">Ajouter au panier</button>
           </div>
         </div>
         <div class="col-6 col-lg-2  mt-2 mt-lg-0">
-          <div class="card shadow"> <!-- Cart 6 -->
+          <div class="card shadow card-produit"> <!-- Cart 6 -->
             <img src="images/vente/radio.jpg" alt="radio" class="card-img-top">
-            <div class="card-body">
+            <div class="card-body card-corps">
               <p class="card-text text-uppercase text-center text-product">Radio Pro max</p>
             </div>
             <button type="button" onclick="NoCommand()" class="btn btn-danger stretched-link ">Ajouter au panier</button>
@@ -319,7 +319,7 @@
     </div>
     <div class="container-fluid mt-4"> <!-- NEWSLETTERS and youtube-->
       <div class="row mb-3 justify-content-between">
-        <div class="col-5 input-group"> <!-- NEWSLETTERS-->
+        <div class="col col-md-5 input-group mb-4 mb-md-0 text-center mx-auto"> <!-- NEWSLETTERS-->
           <div>
               <p class="">NEWSLETTERS</p>
               <p>Recevez tous les offres et nouvelles</p>
@@ -331,7 +331,7 @@
               </div>
         </div>
         </div>
-        <div class="col-4"><!-- Youtube-->
+        <div class="col col-md-4"><!-- Youtube-->
           <div class="card shadow bg-danger">
             <iframe width="" height="" src="https://www.youtube.com/embed/XKfgdkcIUxw" 
             title="YouTube video player" frameborder="0" 
@@ -372,20 +372,21 @@
           </div>
         </div>
       </div>
-        <div class="row bg-danger  align-middle "><!-- copyright  -->
+        <div class="row bg-danger align-middle "><!-- copyright  -->
           <div class="col text-white text-center">
-            <p>&copy Booking Print 2021 - Tout droit réservé - by Saint Thomas</p>
+            <p>&copy Booking Print 2021 - Tout droit réservé - By EntréPrendre</p>
           </div>
           
         </div>
     </footer>
     <script>
       function NoCommand(){
-        alert ("Hé tu fais quoi comme ça! On ne peut pas commander pour le moment faut repasser")
+        alert ("Cette fonctionnalité n'est pas encore disponible")
       }
     </script>
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.min.js" integrity="sha384-+YQ4JLhjyBLPDQt//I+STsc9iw4uQqACwlvpslubQzn4u2UU2UFM80nGisd026JF" crossorigin="anonymous"></script></body>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.min.js" integrity="sha384-+YQ4JLhjyBLPDQt//I+STsc9iw4uQqACwlvpslubQzn4u2UU2UFM80nGisd026JF" crossorigin="anonymous"></script>
+  </body>
     <script src="https://use.fontawesome.com/88f0cd8a0a.js"></script>
     </html>
